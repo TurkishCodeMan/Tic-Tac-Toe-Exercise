@@ -1,0 +1,20 @@
+.container {
+
+  .col-md-6 {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-column-gap: 20px;
+    grid-template-columns: 120px 120px 120px;
+   // background-color: #2196f3;
+
+    padding: 25px;
+
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 30px;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
